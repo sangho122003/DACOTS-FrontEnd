@@ -1,0 +1,350 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+    body{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .menu {
+        width: 100;
+        display: flex;
+        background-color: black;
+        color: white;
+    }
+    .left-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        gap: 10px;
+    }
+    .left-menu input {
+        width: 40%;
+        height: 50%;
+        border-radius: 25px;
+    }
+    .center-menu {
+        display: flex;
+        flex: 1;
+        gap: 20px;
+    }
+    .center-menu div{
+        display: flex;
+        flex: 1;
+        gap: 20px;
+    }
+    .icon-menu-flash{
+       border: none;
+       background: none;
+       color: white;
+       width: 100%;
+       height: 100%;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .icon-menu-flash:hover{
+      .tirtle-flash{
+        display: flex;
+      }
+    }
+    .right-menu {
+        
+        flex: 1;
+        display: flex;
+        gap:10px
+        
+    }
+    .banner {
+        display: flex;
+        align-items:center;
+        width: 100%;
+        height: 110vh;
+        background-image: url('../../public/banner.jpg');
+        background-size: cover;
+        border: none;
+        color: white;
+        
+    }
+    .banner-center{
+        width: 100%;
+        height: 80vh;
+        margin-left:10vh;
+        display: flex;
+    }
+    .right-banner{
+        flex: 1 ;
+        display: flex;
+        flex-direction:column;
+        align-items:start;
+        justify-content: center;
+    }
+
+    .right-banner .button{
+        display: flex;
+        text-decoration: none;
+        font-weight: normal;
+        width: 20vh;
+        height: 5vh;
+        background:none;
+        color:white;
+        border-radius:25px;
+        align-items: center;
+        justify-content: center;
+        margin:20px;
+        padding: 10px;
+        border : 1px solid gray;
+        box-shadow: 0 0 10px gray, 0 0 20px gray, 0 0 30px gray;
+    }
+    .right-banner .button:hover {
+        background: linear-gradient(to right, red, rgb(255, 72, 102));
+        color: white;              /* Text color on hover */
+        box-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red; /* Glowing effect */
+        transition: all 0.3s ease; /* Smooth transition for hover effects */
+    }
+    .ham-download{
+    
+        display: flex;
+    }
+    .left-banner{
+        flex: 1 ;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .left-banner .link {
+        display: block;
+        width: 40vh;
+        height: 10vh;
+        background: linear-gradient(to right, red, rgb(255, 72, 102));
+        text-decoration: none;
+        font-weight: normal;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        border: 5px solid transparent; /* Set initial transparent border */
+        transition: all 0.3s ease; /* Smooth transition */
+    }
+
+    .left-banner .link:hover {
+        background: none; /* Remove background gradient on hover */
+        border: 5px solid; /* Set border width */
+        border-image: linear-gradient(to right, red, rgb(255, 72, 102)) 1; /* Apply gradient to border */
+        border-radius: 30px; /* Correct property to round corners */
+        color:  linear-gradient(to right, red, rgb(255, 72, 102)) 1;;
+    }
+
+
+
+
+    .linktoweb{
+        padding: 10px;
+        width: auto;
+        height: auto;
+        background-color: black;
+        border: 1px ;
+    }
+
+    .provide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    .provide-banner-one {
+        width: 100%;
+        display: flex;
+
+        gap: 10px;
+        flex: 1;
+    }
+    .provide-banner-two {
+        display: flex;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        flex: 1;
+    }
+    .icon{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid black;
+        flex-direction: column;
+    }
+    .icon i{
+    font-size: 25px;
+
+    }
+    .icon:hover{
+        cursor: pointer;
+    }
+    footer{
+        width: 100%;
+        height: 110vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-footer{
+        width: 80%;
+        height: 100vh;
+    }
+    .title-footer{
+        margin: 20px;
+    }
+    footer button{
+        color: white;
+        background-color: none;
+        border: none;
+        background: none;
+        font-size: 30px;
+    }
+
+    .main-footer{
+        width: 100%;
+        display: flex;
+        margin-left: 20px;
+        gap: 20vh;
+    }
+    .main-footer p{
+    font-size: 20px;
+    padding: 3px;
+    }
+    .Introduction {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        max-width: 800px;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .Introduction h1 {
+        color: #333;
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .Introduction p {
+        color: #555;
+        font-size: 1.2em;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    
+    .Introduction strong {
+        display: block;
+        margin-top: 20px;
+        font-size: 1.3em;
+        color: #333;
+    }
+    
+    .Introduction p:last-child {
+        margin-bottom: 0;
+    }
+    
+    @media (max-width: 768px) {
+        .Introduction {
+        padding: 15px;
+        }
+    
+        .Introduction h1 {
+        font-size: 1.8em;
+        }
+    
+        .Introduction p {
+        font-size: 1.1em;
+        }
+    }
+    .info-downloadmoblie{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+
+    }
+    footer p:hover{
+        background-color: #555;
+    
+        border-radius: 10px;
+    }
+    .Download{
+        width: 100%;
+        height: 200vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-Download{
+        justify-content: a;
+    }
+    .left-Download{
+        padding:10vh ;
+    }
+    .tagdow{
+        width: 50vh;
+        height: 50vh;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        max-width: 800px;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-downlaod{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    
+        border-radius: 25px;
+
+    }
+
+    .iondown{
+        flex: 9;
+        font-size: 30vh;
+    }
+    .iondown img{
+        width: 40vh;
+        height: 40vh;
+    }
+    .btn-down-win{
+        background: linear-gradient(to right,navy,  #00A4EF,white);
+        color: black;
+    }
+    .btn-down-linux{
+        background: linear-gradient(to right, black,#FCC624,white);
+        color: black;
+    }
+    .btn-down-Mac{
+        background: linear-gradient(to right,#00A4EF ,gray);
+ 
+    }
+    .btn-down-and{
+        background: linear-gradient(to right,green ,rgb(0, 140, 0));
+ 
+    }

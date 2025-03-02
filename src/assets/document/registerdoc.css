@@ -1,0 +1,51 @@
+/* Định dạng cho toàn bộ container */
+.registration-guide {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Định dạng cho các tiêu đề */
+  .registration-guide h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .registration-guide h2 {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  /* Định dạng cho đoạn văn */
+  .registration-guide p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Định dạng cho các liên kết */
+  .registration-guide a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .registration-guide a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Định dạng cho nút điều hướng */
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .navigation-links div {
+    font-size: 16px;
+  }
+  

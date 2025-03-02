@@ -1,0 +1,95 @@
+.container-wether {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hide {
+    padding: 0;
+    background: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../public/Wheather/bg-moon.png');
+    flex-direction: column;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.hide h1 {
+    margin-bottom: 0px; /* Giảm khoảng cách dưới h1 */
+}
+
+.hide p {
+    margin-top: 0; /* Xóa khoảng cách trên p */
+}
+
+.date-location {
+    color: rgb(250, 66, 97);
+}
+
+.list-wheather {
+    display: none;
+    width: 100%;
+    height: 40vh;
+    background-color: red;
+    color: aliceblue;
+    opacity: 0; /* Ẩn ban đầu */
+    visibility: hidden; /* Ẩn ban đầu */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+.list-wheather.show {
+    opacity: 1; /* Hiển thị khi có lớp 'show' */
+    visibility: visible; /* Hiển thị khi có lớp 'show' */
+}
+
+.title-wheather {
+    background-image: url('../../public/Wheather/rain.gif'); /* Đường dẫn đến ảnh */
+    background-size: cover; /* Đảm bảo ảnh phủ đầy */
+    background-position: center; /* Căn giữa ảnh */
+    color: transparent; /* Ẩn chữ để chỉ hiển thị ảnh */
+    -webkit-background-clip: text; /* Chỉ áp dụng ảnh vào phần chữ */
+    background-clip: text; /* Áp dụng cho các trình duyệt hiện đại */
+    font-size: 30px; /* Cỡ chữ */
+    font-weight: bold; /* Đậm chữ */
+    text-align: center; /* Căn giữa văn bản */
+    
+    /* Tạo viền chữ */
+    -webkit-text-stroke: 0.5px #ffffff; /* Viền trắng với độ dày 1px */
+    text-stroke: 0px #ffffff;
+    
+    /* Tạo bóng chữ */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Bóng đen mờ */
+    
+    /* Tăng độ dày chữ và dãn khoảng cách giữa các chữ */
+    letter-spacing: 5px; /* Dãn khoảng cách giữa các chữ */
+    
+    /* Giữ nguyên chiều cao chữ nhưng dãn ra hai bên */
+    transform: scaleX(1.4); /* Dãn chữ theo chiều ngang mà không thay đổi chiều cao */
+}
+.bg-sun {
+    background-image: url('../../public/Wheather/bg-sun.png.png');
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+  .bg-night {
+    background-image: url('../../public/Wheather/bg-moon.png');
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  

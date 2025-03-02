@@ -1,0 +1,48 @@
+.sidebar-link {
+    color: black; /* Màu chữ của Link */
+    text-decoration: none; /* Xóa gạch chân */
+    display: block; /* Để Link bao phủ toàn bộ vùng của li */
+    transition: background-color 0.3s, color 0.3s; /* Thêm hiệu ứng chuyển đổi */
+    font-size: 20px;
+}
+
+.sidebar-link:hover {
+    color: white; /* Màu chữ khi hover */
+    
+    cursor: pointer;
+}
+
+.select-table {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.select-table:hover {
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: gray; /* Màu nền khi hover */
+   border-radius: 10px;
+}
+
+.sidebar-page {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+    pointer-events: auto; 
+
+}
+
+.table-sidebar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.img-user-sidebar{
+    width: 25px;
+    height: 25px;
+    size: cover;
+}

@@ -1,0 +1,90 @@
+.Menu-container{
+    width: 100%;
+    height: auto;
+}
+.Menu{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-menu{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: black;
+    
+    right: 10px;
+}
+.ulti i{
+   
+    font-size: 30px;
+    color: white;
+}
+.ulti button{
+    border-radius: 50%;
+    border: 1px solid white;
+    background: none;
+    padding: 15px;
+}
+.ulti button:hover{
+    border-radius: 50%;
+    border: 1px solid white;
+    background: gray;
+    padding: 15px;
+}
+.icon-menu-flash i{
+   font-size: 30px;
+}
+.icon-menu-flash p{
+    display: none;
+}
+.menu-ultis{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.ultis-menu{
+    width:40vh ;
+    height: 40vh;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius:25px ;
+}
+.ultis-mess{
+    width:40vh ;
+    height: 60vh;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius:25px ;
+}
+.ultis-Notification{
+    width:40vh ;
+    height: 60vh;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius:25px ;
+}
+.ultis-Usericon{
+    align-items:center ;
+    justify-content: center;
+    width:30vh ;
+    height: 30vh;
+    padding: 20px;
+    border-radius:25px ;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+}
